@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="x_value"/>
+    <item type="id" name="y_value"/>
+    <item type="id" name="x_name"/>
+    <item type="id" name="y_name"/>
+    <item type="id" name="chart_title"/>
+   
+    
+</resources>

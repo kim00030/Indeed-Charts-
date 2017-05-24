@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/pie_chart_add"
+        android:orderInCategory="99"
+        android:showAsAction="ifRoom"
+        android:title="@string/chart_add_series">
+    </item>
+    <item
+        android:id="@+id/pie_chart_title"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/chart_title">
+    </item>
+   <item
+        android:id="@+id/pie_chart_series_name_change"
+        android:orderInCategory="101"
+        android:showAsAction="never"
+        android:title="@string/chart_change_series_name">
+    </item>
+    
+   <item
+        android:id="@+id/pie_chart_series_values"
+        android:orderInCategory="102"
+        android:showAsAction="never"
+        android:title="@string/chart_change_values">
+    </item>
+    
+    <item
+        android:id="@+id/pie_chart_color_line"
+        android:orderInCategory="103"
+        android:showAsAction="never"
+        android:title="@string/chart_change_color_chart">
+    </item>
+    
+
+    <item
+        android:id="@+id/pie_chart_save"
+        android:orderInCategory="104"
+        android:showAsAction="never"
+        android:title="@string/chart_save">
+    </item>
+
+</menu>

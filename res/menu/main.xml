@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ilhyungkim.indeedcharts.MainActivity" >
+
+    <item
+        android:id="@+id/my_charts"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/mycharts"/>
+    <item
+        android:id="@+id/exit"
+        android:orderInCategory="101"
+        android:title="@string/chart_exit">
+    </item>
+
+</menu>

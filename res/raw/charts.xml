@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<charts>
+   
+   <chart>
+        <chartId>1</chartId>
+        <chartMenuName>Pie Chart</chartMenuName>
+        <image>piechart_80x80</image>
+        <description>A circular statistical graphic, which is divided into sectors to illustrate numerical proportion</description>
+    </chart> 
+    
+    <chart>
+        <chartId>2</chartId>
+        <chartMenuName>Line Chart</chartMenuName>
+        <image>linechart_100x100</image>
+        <description>A type of chart which displays information as a series of data points called 'markers' connected by straight line segments.</description>
+    </chart>
+    
+    <chart>
+        <chartId>3</chartId>
+        <chartMenuName>Bar Chart</chartMenuName>
+        <image>barchart_80x80</image>
+        <description>A chart with rectangular bars with lengths proportional to the values that they represent for showing comparisons among categories.</description>
+    </chart>
+    
+    <chart>
+        <chartId>4</chartId>
+        <chartMenuName>Stacked Bar Chart</chartMenuName>
+        <image>stacked_bar_chart_80x80</image>
+        <description>A chart with rectangular bar that places related values atop one another. It's typically used when a category naturally divides into components. </description>
+    </chart>
+    
+    <chart>
+        <chartId>5</chartId>
+        <chartMenuName>Dial Chart</chartMenuName>
+        <image>dialchart_80x80</image>
+        <description>A single value on gauge-type image, similar to an odometer. The value needle that represents the value positions itself between the maximum and minimum values for the dial, as specified in the dataset.</description>
+    </chart>
+    
+    <chart>
+        <chartId>6</chartId>
+        <chartMenuName>Scatter Chart</chartMenuName>
+        <image>scatterchart_80x80</image>
+        <description>A type of diagram that displays a collection of points, each having the value of one variable determining the position on the horizontal axis and the value of the other variable determining the position on the vertical axis.</description>
+    </chart>
+ 
+</charts>

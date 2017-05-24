@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/sort"
+        android:orderInCategory="99"
+        android:showAsAction="ifRoom"
+        android:title="@string/mychart_list_menu_sortby">
+        <menu>
+            <group android:id="@+id/sort_menu_group" >
+                <item
+                    android:id="@+id/submenu_byname"
+                    android:title="@string/mychart_list_menu_name">
+                    <menu>
+                        <group
+                            android:id="@+id/sort_name_group"
+                            android:checkableBehavior="single" >
+                            <item
+                                android:id="@+id/ascend"
+                                android:title="@string/mychart_list_menu_ascending"/>
+                            <item
+                                android:id="@+id/descend"
+                                android:title="@string/mychart_list_menu_descending"/>
+                        </group>
+                    </menu>
+                </item>
+                <item
+                    android:id="@+id/submenu_bychart"
+                    android:title="@string/mychart_list_menu_charts">
+                    <menu>
+                        <group
+                            android:id="@+id/sort_chart_group"
+                            android:checkableBehavior="single" >
+                            <item
+                                android:id="@+id/piechart"
+                                android:title="@string/mychart_list_menu_piechart"/>
+                            <item
+                                android:id="@+id/linechart"
+                                android:title="@string/mychart_list_menu_linechart"/>
+                            <item
+                                android:id="@+id/barchart"
+                                android:title="@string/mychart_list_menu_barchart"/>
+                            <item
+                                android:id="@+id/stackrbarchart"
+                                android:title="@string/mychart_list_menu_stackbarchart"/>
+                            <item
+                                android:id="@+id/dialchart"
+                                android:title="@string/mychart_list_menu_dialchart"/>
+                            <item
+                                android:id="@+id/scatterchart"
+                                android:title="@string/mychart_list_menu_scatterchart"/>
+                        </group>
+                    </menu>
+                </item>
+            </group>
+        </menu>
+    </item>
+
+</menu>
